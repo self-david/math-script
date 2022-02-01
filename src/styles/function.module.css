@@ -1,0 +1,50 @@
+/* @font-face {
+  font-family: "Caskaydia";
+  src: local("Caskaydia"), url(../assets/Caskaydia.ttf) format("truetype");
+} */
+
+.draggable {
+  cursor: move;
+  background-color: #1e1e1e;
+  border-radius: 6px;
+  padding: 2px;
+  position: absolute;
+  box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 1);
+  /* opacity: 0.99; */
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 10px 30px;
+  color: #eef;
+  gap: 20px;
+}
+
+.icon {
+  margin-right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.title {
+  font-size: 16px;
+  font-family: Caskaydia;
+  /* font-weight: bold; */
+  /* color: #eef; */
+}
+
+.editorMinimized {
+  transition: all 0.5s;
+  width: 0px;
+  display: none;
+}
+
+.minimized {
+  transform: rotate(-90deg);
+}
+
+.title {
+  font-weight: 600;
+}

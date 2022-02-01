@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  /* font-size: 18px; */
+}
+
+body {
+  overflow: hidden;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.split {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: calc(100vh - 50px);
+  background-color: #1e1e1e;
+  /* background-color: rgb(70, 13, 13); */
+  /* z-index: 100; */
+  /* z-index: 0; */
+}
